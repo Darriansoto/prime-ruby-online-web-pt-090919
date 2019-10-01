@@ -5,9 +5,9 @@ def prime?(number)
   #true
   
   
-  if (((number > 1) % 2) == 0)
+  if number % 2 == 0
     false
-    
+  end
   true
 end
 
