@@ -1,6 +1,3 @@
 def prime?(number)
-  if number <= 1 
-    return false 
-  end
-  
+  (2..(number - 1))
 end
