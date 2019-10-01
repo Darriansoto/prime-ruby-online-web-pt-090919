@@ -3,4 +3,5 @@ def prime?(number)
     if x % number == 0 
       false
   end
+  true
 end
